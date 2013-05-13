@@ -1,0 +1,53 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+    & > hr {
+        margin: 15px 0;
+    }
+}
+
+.captions {
+	h2 {
+		display: none;
+	}
+}
+
+.board {
+	width: 312px;
+	height: 312px;
+
+	li {
+		list-style-type: none;
+		border: 1px solid #777;
+		width: 100px;
+		height: 100px;
+		float: left;
+		margin: 1px;
+		font-size: 84px;
+		text-align: center;
+		position: relative;
+
+		span {
+			display: block;
+			position: relative;
+		}
+
+		&.naughts {
+			span {
+				top: 35px;
+			}
+		}
+
+		&.crosses {
+			span {
+				font-size: 128px;
+				top: 45px;
+				left: -3px;
+			}
+		}
+	}
+}
