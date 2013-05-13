@@ -1,44 +1,14 @@
-Brunch with fruits
-==================
+# Naughts
 
-A [brunch.io](http://brunch.io/) skeleton based on [Backbone](http://backbonejs.org/), [Bootstrap](http://twitter.github.com/bootstrap/), [Handlebars](http://handlebarsjs.com/), [LESS](http://lesscss.org/) / [SASS](http://sass-lang.com/), [Mocha](http://visionmedia.github.io/mocha/) / [Chai](http://chaijs.com/).
+A tic-tac-toe (or naughts and crosses) game, with minmax ai and alpha beta pruning
 
-* example of deployed [full-stack application](https://github.com/askalyuk/pay-periods-remaining)
-* application structure based on modules - each module is separated set of models, views, styles, templates etc.
-* ready-to-go browser-based testing
+* Backbone
+* Brunch
+* CoffeeScript
+* Bootstrap
+* jQuery
+* Handlebars
 
-## Getting started
+# Credits
 
-Assuming that [Brunch.io](http://brunch.io) installed, create your project using the skeleton with:
-
-	brunch new <your-project-name> -s github://askalyuk/brunch-fruits
-
-Install dependencies:
-
-    npm install
-
-Build (dev version):
-
-    brunch build
-
-Build (optimized version):
-
-    brunch build -o
-
-Run simple development server (and watch changes):
-
-    brunch watch --server
-
-Go to home page:
-
-    http://localhost:3333/
-
-Run tests:
-
-    http://localhost:3333/test/index.html
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
-
-inspired by [brunch-banana-pancakes](https://github.com/Anaphase/brunch-banana-pancakes)
+Made by Robin Duckett <[robin.duckett@gmail.com](mailto:robin.duckett@gmail.com)>
